@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-color:  hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#container{
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#description p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    width: 300px;
+    margin: auto;
+}
+#description h1{
+    margin: 20px;
+    color: hsl(223, 47%, 23%);
+}
+#price_section{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    margin: 20px auto;
+    background-color:hsl(225, 100%, 94%);
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+}
+#price_section a{
+    margin-left: 80px;
+}
+#plan h1,#plan p{
+    font-size: 16px;
+}
+#plan p{
+    color: hsl(224, 23%, 55%);;
+}
+#button{
+    width: 300px;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 5px hsl(224, 23%, 55%);
+}
+#button a{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top:10px;
+    text-decoration: none;
+    padding: 5px;
+}
+#cancelbtn{
+    margin: 20px;
+}
+#cancelbtn a{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    font-weight:700 ;
+}
